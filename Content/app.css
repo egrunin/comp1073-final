@@ -1,0 +1,5 @@
+/* custom syle sheet */
+img#dice1, img#dice2 {
+    height: 150px;
+    width: 150px;
+}
