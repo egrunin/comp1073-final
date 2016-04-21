@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="Content/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="Content/css/font-awesome.min.css">
     <link rel="stylesheet" href="Content/app.css">
-    <title>COMP1073 - Lesson 10</title>
+    <title>COMP1073 - Dice Roll</title>
 </head>
 
 <body>
@@ -33,9 +33,7 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="index.html">About Me</a></li>
-                    <li><a href="projects.html">My Projects</a></li>
-                    <li><a href="contact.html">Contact Me</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
 
                 </ul>
             </div>
@@ -54,23 +52,29 @@
 
     <div class="container">
         <form id="form1" action="" method="get">
-            <div class="dice">
-                <img src="Assets/images/dice1.jpg" alt="dice1">
-                <img src="Assets/images/dice2.jpg" alt="dice2">
-                <img src="Assets/images/dice3.jpg" alt="dice3">
-                <img src="Assets/images/dice4.jpg" alt="dice4">
-                <img src="Assets/images/dice5.jpg" alt="dice5">
-                <img src="Assets/images/dice6.jpg" alt="dice6">
-            </div>
-            
             <div class="form-group">
                 <label for="roll" class="form-control">Dice Roll: </label>
                 <input id="roll" type="text" class="form-control" name="roll" placeholder="Roll">
             </div>
-           
+            <div class="dice">
+                <img id="d1" src="Assets/images/dice1.jpg" alt="dice1">
+                <img id="d2" src="Assets/images/dice2.jpg" alt="dice2">
+                <img id="d3" src="Assets/images/dice3.jpg" alt="dice3">
+                <img id="d4" src="Assets/images/dice4.jpg" alt="dice4">
+                <img id="d5" src="Assets/images/dice5.jpg" alt="dice5">
+                <img id="d6" src="Assets/images/dice6.jpg" alt="dice6">
+            </div>
+            <div class="dice2">
+                <img id="d1" src="Assets/images/dice1.jpg" alt="dice1">
+                <img id="d2" src="Assets/images/dice2.jpg" alt="dice2">
+                <img id="d3" src="Assets/images/dice3.jpg" alt="dice3">
+                <img id="d4" src="Assets/images/dice4.jpg" alt="dice4">
+                <img id="d5" src="Assets/images/dice5.jpg" alt="dice5">
+                <img id="d6" src="Assets/images/dice6.jpg" alt="dice6">
+            </div>
+            
         </form>
-         <button id="defaultButton" class="btn btn-default">Default Settings</button>
-         <button id="toggleButton" class="btn btn-warning">Hide</button>
+         <button id="rollButton" class="btn btn-default">Roll</button>
     </div>
 
 
